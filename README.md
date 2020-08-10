@@ -14,11 +14,17 @@ Download CreateWhiteBoard.jar and JoinWhiteBoard.jar. Execute the jars with argu
 
 ## Usage
 
-To start a server (or create a whiteboard):
+To start a server (or create a whiteboard), type the line below on terminal.
+```
+java -jar CreateWhiteBoard.jar <serverIPAddress> <serverPort> username
+```
+![](cwb.gif)
 
-
-
-
+To join the server as a client:
+```
+java -jar JoinWhiteBoard.jar <serverIPAddress> <serverPort> username
+```
+![](jwb.gif)
 
 ## License
 
